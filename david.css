@@ -7,18 +7,31 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-
 }
+
 
 footer {
     width: 100vw;
     background-color: #f2f2f2;
     padding: 20px;
     border-top: 1px solid #DDFDFE;
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
     bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    /*left: calc((100vw - 1200px) /2);*/
+}
+
+.footer-content
+{
+    margin-left: calc((100% - 1200px) /2);
+    margin-right: calc((100% - 1200px) /2);
+    width: min(1200px, 100%);
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    /*justify-content: space-between;*/
+
 }
 
 #footer-image {
@@ -40,3 +53,11 @@ footer {
 .footer-details-text {
     color: #333;
 }
+
+
+@media screen and (max-width: 760px) {
+    .footer-content {
+        flex-direction: column; /* Змінити напрямок на стовпець */
+    }
+}
+
