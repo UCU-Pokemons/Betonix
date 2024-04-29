@@ -1,0 +1,42 @@
+
+:root {
+    --minimal-width: 1024px;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+footer {
+    width: 100vw;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-top: 1px solid #DDFDFE;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+}
+
+#footer-image {
+    width: 75%;
+    height: auto;
+}
+
+
+#footer-width-container{
+    background-color: #333;
+    width: var(--minimal-width);
+}
+
+.footer-right-text{
+    position: relative;
+    right: 30px;
+}
+
+.footer-details-text {
+    color: #333;
+}
