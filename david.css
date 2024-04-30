@@ -53,16 +53,6 @@ body {
     border: none
   }
 
-
-
-
-
-
-
-
-
-
-
 footer {
     position: absolute;
     width: 100vw;
@@ -85,12 +75,6 @@ footer {
 #footer-image {
     width: 200px;
     height: auto;
-}
-
-
-#footer-width-container{
-    background-color: #333;
-    width: var(--minimal-width);
 }
 
 .footer-right-text{
