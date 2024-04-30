@@ -111,8 +111,12 @@ header
 
 .company
 {
+    position: relative;                     /* David added this to custom position */
+    top: 120px;
     display: flex;
     justify-content: center;
+    z-index: -1;                             /* David added this to hide under header */
+
 }
 
 .company-content
@@ -163,7 +167,8 @@ header
 
 .call-me-form {
     position: relative;
-    top: 130px;
+    z-index: -1;
+    top: 380px;
     margin-left: calc((100% - 1200px)/2);
     margin-right: calc((100% - 1200px)/2);
     width: 1200px;
@@ -223,7 +228,7 @@ h2 {
 .call-me-front-text{
     position: relative;
     text-align: center;
-    bottom: 120px;
+    bottom: 150px;
     font-size: 35px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -239,6 +244,7 @@ h2 {
 }
 
 .rounded-box {
+    
     position: relative;
     bottom: 10px;
     border-radius: 5px;
@@ -258,7 +264,7 @@ input[type="text"] {
 
 footer {
     position: relative;
-    top: 200px;
+    top: 600px;
     background-color: #31363F;
     padding: 20px;
     display: flex;
