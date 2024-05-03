@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="icon" href="./images/logo-betonix-notxt.png" type="image/png">
+    <script src="./dropdown.js" defer></script>
 </head>
 <body>
     <header>
@@ -63,6 +64,81 @@
                 <form action="">
                     <button type="submit" class="call-me-form-button">Подзвоніть мені</button>
                 </form>
+            </div>
+        </div>
+
+
+        <div class="calculate-price">
+            <div class="calculate-price-content">
+                <p class="calculate-price-content-title">Розрахувати приблизну вартість</p>
+                <div class="calculate-price-content-box">
+                    <div class="calculate-price-content-box-calculation">
+                        <div class="calculate-price-content-box-left">
+                            <div class="calculate-price-content-box-left-element">
+                                <p class="calculate-price-content-box-element-text">Оберіть матеріал</p>
+                                <div class="calculate-price-content-box-element-dropdown">
+                                    <div class="dropdown-select-option">
+                                        <span class="selected">Бетон</span>
+                                        <div class="caret"></div>
+                                    </div>
+                                    <ul class="dropdown-options">
+                                        <li class="active-dropdown-option">Бетон</li>
+                                        <li>Розчин цементно-піщаний</li>
+                                        <li>Щебінь та пісок</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="calculate-price-content-box-left-element">
+                                <p class="calculate-price-content-box-element-text">Осадка конуса</p>
+                                <div class="calculate-price-content-box-element-dropdown">
+                                    <div class="dropdown-select-option">
+                                        <span class="selected">Осадка конуса Р1</span>
+                                        <div class="caret"></div>
+                                    </div>
+                                    <ul class="dropdown-options">
+                                        <li class="active-dropdown-option">Осадка конуса Р1</li>
+                                        <li>Осадка конуса Р2</li>
+                                        <li>Осадка конуса Р3</li>
+                                        <li>Осадка конуса Р4</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="calculate-price-content-box-right">
+                            <div class="calculate-price-content-box-right-element">
+                                <p class="calculate-price-content-box-element-text">Марка матеріалу</p>
+                                <div class="calculate-price-content-box-element-dropdown">
+                                    <div class="dropdown-select-option">
+                                        <span class="selected">М100 (В7,5)</span>
+                                        <div class="caret"></div>
+                                    </div>
+                                    <ul class="dropdown-options">
+                                        <li class="active-dropdown-option">М100 (В7,5)</li>
+                                        <li>М150 (В10)</li>
+                                        <li>М200 (В15)</li>
+                                        <li>М250 (В20)</li>
+                                        <li>М300 (В25)</li>
+                                        <li>М350 (В25)</li>
+                                        <li>М400 (В30)</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="calculate-price-content-box-right-element-input">
+                                <p class="calculate-price-content-box-element-text">Об'єм</p>
+                                <div class="calculate-price-input">
+                                    <input type="text" placeholder="Напр. 100" style="width: 280px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="calculate-price-result">Орієнтовна вартість: 100 грн</p>
+
+                    <p class="calculate-price-disclaimer">* Ціна без врахування доставки</p>
+                </div>
             </div>
         </div>
     </main>
