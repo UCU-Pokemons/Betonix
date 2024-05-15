@@ -159,8 +159,8 @@ header
 .call-me-form {
     position: relative;
     top: 380px;
-    margin-left: calc((100% - 1240px)/2);
-    margin-right: calc((100% - 1240px)/2);
+    margin-left: calc((100% - 1200px)/2);
+    margin-right: calc((100% - 1200px)/2);
     width: 1200px;
     height: 400px;
     background-color: white;
@@ -172,12 +172,11 @@ header
 
 .call-me-img{
     position: absolute;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-
     height: 400px;
-    right: 0;
+    right: -1px;
     bottom: 0;
 }
 
@@ -194,9 +193,8 @@ header
     cursor: pointer;
     transition: background-color 0.4s;
     left: 275px;
-    bottom: 40px;
+    bottom: 35px;
     font-size: 20px;
-
 }
 
 
@@ -211,7 +209,7 @@ h2 {
 .call-me-input-box{
     position: relative;
     width: 600px;
-    left: 135px;
+    left: 140px;
     top: -70px;
 }
 
